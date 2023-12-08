@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Mulish;
+  font-size: 62.5%;
+}
+
+body {
+  background: #121214;
+  display: grid;
+  justify-content: center;
+
+  padding: 7.2rem 10.4rem;
+}
+
+header h1 {
+  font-weight: 800;
+  font-size: 5.6rem;
+  line-height: 7.2rem;
+
+  color: #02799d;
+}
+
+header p {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4rem;
+
+  color: #e1e1e6;
+}
+
+main {
+  margin-top: 6.2rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 37rem);
+
+  gap: 4.8rem 6rem;
+}
+
+.card {
+  background: #202024;
+  border: 0.2rem solid #323238;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.card h2 {
+  color: #e1e1e6;
+  font-weight: 800;
+  font-size: 3.6rem;
+  padding: 2.4rem 3.2rem 0;
+}
+
+.card p {
+  color: #c4c4cc;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 2.4rem 3.2rem 3.2rem;
+}
